@@ -127,9 +127,8 @@ We are always open to [your feedback](https://github.com/facebookincubator/creat
 ## Folder Structure
 
 After creation, your project should look like this:
-
 ```
-my-app/
+ssct-timeline/
   README.md
   node_modules/
   package.json
@@ -2133,7 +2132,7 @@ For more information see [Add Firebase to your JavaScript Project](https://fireb
 Open your `package.json` and add a `homepage` field for your project:
 
 ```json
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://myusername.github.io/ssct-timeline",
 ```
 
 or for a GitHub user page:
@@ -2148,7 +2147,7 @@ Create React App uses the `homepage` field to determine the root URL in the buil
 
 Now, whenever you run `npm run build`, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
 
-To publish it at [https://myusername.github.io/my-app](https://myusername.github.io/my-app), run:
+To publish it at [https://myusername.github.io/ssct-timeline](https://myusername.github.io/ssct-timeline), run:
 
 ```sh
 npm install --save gh-pages
