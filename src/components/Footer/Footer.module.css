@@ -1,0 +1,27 @@
+.Footer {
+  background-color: rgb(65, 65, 65);
+  height: 50px;
+  width: 100%;
+
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 0.75em;
+}
+
+.Footer a {
+  color: rgb(116, 190, 255);
+  text-decoration: none;
+}
+
+.Footer ul {
+  list-style: none;
+}
+
+.Footer ul li {
+  display: inline-block;
+  padding: 0 5px;
+}

@@ -1,0 +1,38 @@
+.Header {
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  box-shadow: 0px 20px 30px -20px rgba(0, 0, 0, 0.51);
+  transition: height 1s ease-in-out;
+  padding: 10px 0;
+}
+
+.Collapsed {
+  height: 80px;
+}
+
+.NotCollapsed {
+  height: 150px;
+}
+
+.LogoWrapper {
+  position: relative;
+  height: 150px;
+  /* width: 100%; */
+  text-align: center;
+}
+.LogoWrapper img {
+  transition: height 1s ease-in-out;
+}
+
+.Logo {
+  /* width: auto; */
+  height: 100%;
+}
+
+.Collapsed .LogoWrapper img {
+  height: 80px;
+  /* width: auto; */
+}

@@ -1,0 +1,28 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid lightslategrey;
+  box-shadow: 0px 20px 30px -20px rgba(0, 0, 0, 0.51);
+  padding: 10px;
+  left: 15%;
+  top: 30%;
+  transition: all 0.3s ease-out;
+  border-radius: 4px;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+    width: 700px;
+    left: calc(50% - 350px);
+  }
+}
+
+.CloseModal {
+  float: right;
+  cursor: pointer;
+  color: lightslategrey;
+  opacity: 0.5;
+  font-size: 1.2em;
+}
